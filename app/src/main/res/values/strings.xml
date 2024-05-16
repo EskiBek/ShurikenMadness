@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SaveYourPuppy</string>
+    <string name="start">Start</string>
+    <string name="your_points">Your points:</string>
+    <string name="_50">50</string>
+    <string name="highest">Highest:</string>
+    <string name="_99">99</string>
+</resources>
