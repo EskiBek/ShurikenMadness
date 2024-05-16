@@ -1,2 +1,2 @@
-# ShurikenTrouble
-A Java Game "Shuriken Trouble" made in Android Studio (May 2024)
+# ShurikenMadness
+A Java Game "Shuriken Madness" made in Android Studio (May 2024)
