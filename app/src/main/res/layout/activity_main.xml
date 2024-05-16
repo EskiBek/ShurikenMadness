@@ -46,7 +46,7 @@
         android:id="@+id/change_character_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/zmien_postac"
+        android:text="@string/change_champ"
         android:fontFamily="@font/jaro_regular" />
 
 </LinearLayout>
