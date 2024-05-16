@@ -53,35 +53,41 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text = "@string/your_points"
-                    android:textSize="24sp" />
+                    android:textSize="40sp"
+                    android:fontFamily="@font/rena_regular" />
 
                 <TextView
                     android:id="@+id/scoredPoints"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/_50"
-                    android:textSize="50sp"
+                    android:textSize="40sp"
                     android:textColor="@android:color/holo_orange_dark"
+                    android:fontFamily="@font/rena_regular"
                      />
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/highest"
-                    android:textSize="24sp"
-                    android:layout_gravity="center|right"
-                    tools:ignore="RtlHardcoded" />
+                    android:textSize="35sp"
+                    android:fontFamily="@font/rena_regular"
+                    android:layout_gravity="center|end"/>
+
                 <TextView
                     android:id="@+id/highestScore"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/_99"
-                    android:textSize="24sp"
+                    android:textSize="35sp"
+                    android:fontFamily="@font/rena_regular"
                     android:textColor="@android:color/holo_red_light" />
             </TableRow>
+
         </TableLayout>
         <View
             android:layout_width="1dp"

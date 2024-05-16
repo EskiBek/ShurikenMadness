@@ -11,29 +11,42 @@
     android:background="#e7dfc2"
     android:gravity="center">
 
-    <ImageView
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/game_title" />
+        android:text="@string/shuriken_madness"
+        android:textAlignment="center"
+        android:fontFamily="@font/jaro_regular"
+        android:layout_gravity="center"
+        android:textSize="60sp"/>
 
     <ImageView
+        android:id="@+id/character"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:layout_marginBottom="40dp"
-        app:srcCompat="@drawable/puppy"
+        app:srcCompat="@drawable/ninja0"
         />
 
 
     <Button
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:text="@string/play"
+        android:textSize="32sp"
+        android:textColor="#e7dfc2"
+        android:backgroundTint="#bb8044"
+        android:background="@drawable/menu_button"
+        android:onClick="startGame"
+        android:fontFamily="@font/jaro_regular"
+        />
+
+    <Button
+        android:id="@+id/change_character_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/start"
-        android:textSize="32sp"
-        android:textColor="@android:color/holo_purple"
-        android:backgroundTint="#bb8044"
-        android:onClick="startGame"
-        />
-    <!--        android:fontFamily="@font/gameFont"-->
+        android:text="@string/zmien_postac"
+        android:fontFamily="@font/jaro_regular" />
 
 </LinearLayout>

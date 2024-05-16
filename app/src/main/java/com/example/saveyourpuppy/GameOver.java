@@ -24,13 +24,17 @@ public class GameOver extends AppCompatActivity {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.game_over);
+
         pointsScored = findViewById(R.id.scoredPoints);
         highestScore = findViewById(R.id.highestScore);
         newPersonalBest = findViewById(R.id.newHighestScore);
+
         int points = Objects.requireNonNull(getIntent().getExtras()).getInt("points");
         pointsScored.setText(""+points);
+
         sharedPreferences = getSharedPreferences("my_pref",0);
         int highest = sharedPreferences.getInt("highest",0);
+
         if (points > highest){
             newPersonalBest.setVisibility(View.VISIBLE);
             highest = points;
